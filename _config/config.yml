@@ -1,0 +1,6 @@
+---
+Name: silverstripe-track-member
+---
+SilverStripe\Security\Member:
+  extensions:
+  - Suilven\TrackMember\TrackMemberExtension

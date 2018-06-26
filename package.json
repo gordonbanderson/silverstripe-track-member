@@ -1,0 +1,62 @@
+{
+  "name": "silverstripe-track-member",
+  "version": "1.0.0",
+  "description": "Track number of visits and last visited by a member of a silverstripe site.",
+  "homepage": "https://github.com/suilven/silverstripe-track-member",
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "author": "Suilven",
+  "contributors": [
+    {
+      "name": "Gordon Anderson",
+      "email": "gordon.b.anderson@gmail.com",
+      "url": "https://github.com/gordonbanderson"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suilven/silverstripe-track-member.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suilven/silverstripe-track-member/issues"
+  },
+  "engines": {
+    "node": "^4.2.0"
+  },
+  "scripts": {
+    "watch": "webpack --env.development --colors --watch",
+    "build": "webpack --env.production --colors --optimize-minimize"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.2.0",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.8",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "modules": false
+        }
+      ]
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
