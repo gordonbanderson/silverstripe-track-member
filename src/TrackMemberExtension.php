@@ -28,7 +28,7 @@ class TrackMemberExtension extends DataExtension
         'NumVisit' => 'Int',
     ];
 
-    public function memberLoggedIn()
+    public function afterMemberLoggedIn()
     {
         $this->logVisit();
     }
